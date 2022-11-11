@@ -1,38 +1,118 @@
 .App {
   text-align: center;
+  padding: 3%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Navbar{
+  width: 90%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  column-gap: 10%;
+  background-color: #569ce2;
+  padding: 3%;
+}
+li{
+  padding: 2%;
+  float: left;
+  list-style: none;
+}
+.Links{
+  width: 90%;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.Button{
+  font-size: 14px;
+  border-style: none;
+  color: white;
+  padding-top: 9%;
+  padding-bottom:9%;
+  border-radius: 30px;
+  width: 100%;
+  background-color: #315a85;
+}
+.MidPage{
+  
+  color: white;
+  margin-right: 4%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+  padding-left: 6%;
+}
+.navMidPAge{
+  background-color:#569ce2 ;
+}
+.row1-col1{
+  padding-left: 3%;
+  text-align: start;
+  width: 50%;
+  margin-top: 2px;
+}
+.row1-Col2{
+  width: 100%;
+  
+}
+.LogoImg{
+  /* width: 90%; */
+}
+.flex{
+  display: flex;
+  column-gap: 10%;
+  /* margin-right: 5%; */
+}
+.button {
+  background-color: #315a85; 
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  margin-top: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* bottom styling */
+.BottomPage{
+  text-align: center;
+}
+.row2{
+  margin-left: 19%;
+  width: 60%;
+  color: #758691;
+}
+.color{
+  color: #1f3141;
+}
+.Bottom-row2{
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  column-gap: 18%;
+  padding: 2%;
+}
+/* .image{
+  width: 80%;
+} */
+.BottomHead{
+  color: #abccec;
+}
+/* Media query */
+@media screen and (max-width: 706px) {
+  div.flex {
+    display: block;
+    /* margin-top: -7%; */
   }
-  to {
-    transform: rotate(360deg);
+}
+@media screen and (max-width: 682px) {
+  div.Navbar {
+    display: block;
+    /* margin-top: -7%; */
+  }
+}
+@media screen and (max-width: 682px) {
+  div.Bottom-row2 {
+    display: block;
   }
 }
